@@ -1,7 +1,7 @@
 const firebaseConfig = {
     apiKey: "AIzaSyAC1nOk89qvz9-YUXwRgd-hhLzJezYhvMU",
     authDomain: "calgaryhackathon-67df8.firebaseapp.com",
-    databaseURL: "https://calgaryhackathon-67df8-default-rtdb.firebaseio.com",
+    databaseURL: "https://calgaryhackathon-67df8-default-rtdb.firebaseio.com/",
     projectId: "calgaryhackathon-67df8",
     storageBucket: "calgaryhackathon-67df8.appspot.com",
     messagingSenderId: "90074114709",
@@ -21,7 +21,7 @@ function postChat(e) {
     const message = chatTxt.value;
     chatTxt.value = "";
     db.ref("messages/" + timestamp).set({
-        usr: "username",
+        usr: "Anonymous",
         msg: message,
     });
 }
