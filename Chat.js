@@ -21,7 +21,7 @@ function postChat(e) {
     const message = chatTxt.value;
     chatTxt.value = "";
     db.ref("messages/" + timestamp).set({
-        usr: "username",
+        usr: "Anonymous",
         msg: message,
     });
 }
