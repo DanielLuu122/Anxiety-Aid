@@ -1,0 +1,33 @@
+.sus {
+    width: fill;
+    text-align: center;
+}
+
+
+
+#quotes {
+    /* background tings */
+    background-image: url("./images/clouds.jpg"); 
+    background-color: #cccccc; 
+    height: 750px; 
+    width: fill;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    /* text itself*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    font-size: 75px;
+    font: 'Arizonia', Helvetica, sans-serif;;
+    color: whitesmoke;
+    text-shadow: 1px 1px 0px #ededed, 4px 4px 0px rgba(0,0,0,0.25);
+    overflow-wrap: break-word;
+    border: 3px solid rgb(100, 149, 237);
+    line-height: normal;
+}
+
+
+  

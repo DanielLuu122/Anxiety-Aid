@@ -1,5 +1,5 @@
-document.getElementById("quotes").onclick = function () {
-    let quotesDiv = document.getElementById("quotes");
+document.getElementById("btn").onclick = function () {
+    // let quotesDiv = document.getElementById("quotes");
     fetch("https://type.fit/api/quotes")
       .then(function (response) {
         return response.json();
