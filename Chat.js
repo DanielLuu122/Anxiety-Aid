@@ -28,6 +28,8 @@ function postChat(e) {
 const fetchChat = db.ref("messages/");
 fetchChat.on("child_added", function (snapshot) {
     const messages = snapshot.val();
-    const msg = "<li>" + messages.usr + " : " + messages.msg + "</li>";
+    var msg = "<li class = \"msgClass1\"><label class = \"msgClass\">" + messages.usr + ": " + messages.msg + "</label></li>";
     document.getElementById("messages").innerHTML += msg;
+    document.getElementById('messages').scrollTop = document.getElementById('messages').scrollHeight;
+
 });

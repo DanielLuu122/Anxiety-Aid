@@ -133,7 +133,7 @@
   .fr-view .fr-text-gray {
     color: #AAA !important; }
   .fr-view .fr-text-bordered {
-    border-top: solid 1px #222;
+    border-top: solid 1px #222222;
     border-bottom: solid 1px #222;
     padding: 10px 0; }
   .fr-view .fr-text-spaced {
@@ -14612,7 +14612,7 @@ section.u-image,
   width: 100%;
   height: 100%;
   fill: currentColor;
-  
+
   color: rgb(44, 204, 196) !important;
 }
 .u-svg-link3 {
@@ -34357,7 +34357,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
 
 
-        
+
 
         /** common-rules **/
         h1.u-title
@@ -34517,7 +34517,7 @@ a.u-link.u-text-hover-grey-90:hover {
         /*end-media rules*/
         /** publish-rules **/
 
-        
+
 
         /** cms-rules **/
         /*begin-responsive rules*/
@@ -34629,7 +34629,7 @@ a.u-link.u-text-hover-grey-90:hover {
         color: #ffffff;
         }
         /** alt-color-rules **/
-    
+
 
 
 /*end-variables sitestylecss*/
@@ -34899,6 +34899,6 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 
- /*begin-variables base-font-size*/ 
+ /*begin-variables base-font-size*/
  html { font-size: 16px; }
  /*end-variables base-font-size*/
