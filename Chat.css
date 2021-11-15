@@ -1,0 +1,9 @@
+.chatList {
+    height:200px;
+    width:100%;
+    overflow:hidden;
+    overflow-y:scroll;
+    list-style: none;
+    background-color: #111111;
+    color: white;
+}
