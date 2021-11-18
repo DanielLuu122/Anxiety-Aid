@@ -1,17 +1,17 @@
 .sus {
     width: fill;
     text-align: center;
-    background-image: url("./images/clouds.jpg"); 
+    background-image: url("./images/clouds.jpg");
 }
 
 
 
 #quotes {
-    /* background tings */ 
-    height: 700px; 
+    /* background tings */
+    height: 700px;
     width: fill;
-    background-position: center; 
-    background-repeat: no-repeat; 
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     /* text itself*/
     display: flex;
@@ -46,6 +46,7 @@
     text-align:center;
     transition: all 0.2s;
     margin-bottom: 35px;
+
     }
 
 #btn:hover{
@@ -53,4 +54,3 @@
     background-color:whitesmoke;
     }
 
-  
