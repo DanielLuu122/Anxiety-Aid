@@ -6,12 +6,31 @@
     margin: auto;
     border-radius: 20px;
     margin-bottom: 20px;
+    margin-top: 20px;
+}
+.burn {
+    font-family: firefont, serif;
+    text-align: center;
+    font-size: 50px;
+    color: firebrick;
 }
 
+@font-face {
+    font-family: firefont;
+    src: url(FireFont.ttf);
+}
+.img{
+    display: none;
+    width: 75%;
+    height: 400px;
+    margin: auto;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
 .button-27 {
     appearance: none;
-    background-color: #000000;
-    border: 2px solid #1A1A1A;
+    background-color: #ec5c12;
+    border: 2px solid #ff0000;
     border-radius: 15px;
     box-sizing: border-box;
     color: #FFFFFF;
@@ -34,6 +53,7 @@
     will-change: transform;
     display: block;
     margin: auto;
+    margin-bottom: 20px;
 }
 
 .button-27:disabled {
