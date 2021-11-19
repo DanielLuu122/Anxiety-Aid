@@ -2,6 +2,7 @@
   "name": "Calgary_Hackathon",
   "version": "1.0.0",
   "dependencies": {
-    "firebase": "^9.4.1"
+    "firebase": "^9.4.1",
+    "Propeller": "^0.3.2"
   }
 }
