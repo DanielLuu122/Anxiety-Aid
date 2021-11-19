@@ -48,6 +48,9 @@
     margin-bottom: 35px;
 
     }
+.headertext{
+    font-family: Georgia, serif;
+}
 
 #btn:hover{
     color:#000000;

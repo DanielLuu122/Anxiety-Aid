@@ -14,7 +14,9 @@
     font-size: 50px;
     color: firebrick;
 }
-
+.headertext{
+    font-family: Georgia, serif;
+}
 @font-face {
     font-family: firefont;
     src: url(FireFont.ttf);

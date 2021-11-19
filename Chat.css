@@ -45,6 +45,9 @@
     font-size:12px;
 
 }
+.headertext{
+    font-family: Georgia, serif;
+}
 .msgClass{
     height: 100px
 }

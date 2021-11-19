@@ -216,7 +216,9 @@
 }.u-section-2 .u-sheet-1 {
   min-height: 376px;
 }
-
+.headertext{
+  font-family: Georgia, serif;
+}
 .u-section-2 .u-image-1 {
   width: 396px;
   height: 294px;
