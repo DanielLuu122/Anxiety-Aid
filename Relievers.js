@@ -1,6 +1,6 @@
 let test = document.getElementById("cat");
 test.addEventListener("mouseover", func, false);
-test.addEventListener("mouseclick", func3, false);
+test.addEventListener("click", func3, false);
 test.addEventListener("mouseout", func2, false);
 
 function func(){
