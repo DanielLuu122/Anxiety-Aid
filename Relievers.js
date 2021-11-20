@@ -5,7 +5,6 @@ test.addEventListener("mouseout", func2, false);
 
 function func(){
     test.src="images/cat2.png";
-    audio.play();
 }
 function func3(){
     audio.play();
