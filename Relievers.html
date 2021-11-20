@@ -55,9 +55,17 @@
         data-image-width="256" data-image-height="217" data-href = "./Home.html"> 
     </div>
   </header>
-  <div>
-  <img width="750" height=750 class = "img1" id="example2" src="images/fidgetspinner.png" alt="">
+
+  <div class="row">
+      <div class = "spinner">
+        <img width="750" height=750 class = "img1" id="example2" src="images/fidgetspinner.png" alt="">
+      </div>
+      <div class = "cat">
+        <img class="cat" id="cat" src="images/cat.png" alt="">
+        <audio id="audio" src="mixkit-sweet-kitty-meow-93 (1).mp3"></audio>
+      </div>
   </div>
+
   <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-f87a">
     <div class="u-clearfix u-sheet u-sheet-1">
       <p class="u-text u-text-default u-text-1">
@@ -110,6 +118,7 @@
     </div>
   </footer>
 </body>
+<script src="Relievers.js"></script>
 <script src="propeller.js"></script>
 <script>
   new Propeller(document.getElementById('example2'), {inertia: 0.99});

@@ -3,6 +3,25 @@
 }
 .img1{
     display: block;
-    margin-left: auto;
+    margin-left: 50px;
     margin-right: auto;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.spinner {
+   float: left;
+}
+
+.cat {
+    float: right;
+    margin-right: 100px;
+    width: 400px;
+    height: auto;
+    margin-top: 60px;
+    vertical-align: middle;
 }
