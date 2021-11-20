@@ -13,3 +13,7 @@ function func3(){
 function func2(){
     test.src="images/cat.png";
 }
+document.getElementById("button").onclick = function () {
+    document.getElementById("button").volume = 1;
+    audio2.play();
+};
